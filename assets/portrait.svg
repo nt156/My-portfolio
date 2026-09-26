@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1100" role="img" aria-label="Abstract designer portrait artwork">
+  <rect width="900" height="1100" fill="#161513"/>
+  <!-- arch frame -->
+  <path d="M150 1000 L150 420 A300 300 0 0 1 750 420 L750 1000 Z" fill="#211e1a" stroke="#c9a227" stroke-width="2"/>
+  <!-- abstract profile: head -->
+  <path d="M450 260 C 350 260 290 340 290 440 C 290 520 330 570 355 610 L355 700 L545 700 L545 640 C 600 590 615 520 612 450 C 608 345 550 260 450 260 Z" fill="#e8e2d4"/>
+  <!-- face shadow plane -->
+  <path d="M450 260 C 550 260 608 345 612 450 C 615 520 600 590 545 640 L545 700 L470 700 L470 260 Z" fill="#d8d0bd"/>
+  <!-- gold detail: earring / line -->
+  <circle cx="560" cy="560" r="10" fill="#c9a227"/>
+  <line x1="450" y1="180" x2="450" y2="230" stroke="#c9a227" stroke-width="2"/>
+  <circle cx="450" cy="170" r="5" fill="#c9a227"/>
+  <!-- shoulders -->
+  <path d="M300 1000 C 300 830 370 740 450 740 C 530 740 600 830 600 1000 Z" fill="#c9a227"/>
+  <path d="M450 740 C 530 740 600 830 600 1000 L450 1000 Z" fill="#a8842a"/>
+  <!-- grid hint -->
+  <line x1="80" y1="90" x2="820" y2="90" stroke="#8a8577" stroke-width="1" opacity=".5"/>
+  <text x="80" y="72" font-family="Georgia, serif" font-size="16" letter-spacing="5" fill="#8a8577">PORTRAIT — THE DESIGNER</text>
+</svg>

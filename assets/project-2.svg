@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Lotus display model render">
+  <rect width="1200" height="900" fill="#161513"/>
+  <!-- pedestal -->
+  <rect x="420" y="640" width="360" height="90" fill="#211e1a"/>
+  <rect x="420" y="640" width="360" height="4" fill="#c9a227"/>
+  <rect x="380" y="730" width="440" height="22" fill="#211e1a"/>
+  <!-- lotus petals -->
+  <g fill="none" stroke="#e8e2d4" stroke-width="3">
+    <path d="M600 640 C 520 560, 520 430, 600 330 C 680 430, 680 560, 600 640 Z"/>
+    <path d="M600 640 C 470 610, 400 500, 420 370 C 540 430, 590 540, 600 640 Z"/>
+    <path d="M600 640 C 730 610, 800 500, 780 370 C 660 430, 610 540, 600 640 Z"/>
+    <path d="M600 640 C 430 660, 330 570, 320 440 C 460 470, 570 560, 600 640 Z" opacity=".55"/>
+    <path d="M600 640 C 770 660, 870 570, 880 440 C 740 470, 630 560, 600 640 Z" opacity=".55"/>
+  </g>
+  <!-- gold core -->
+  <circle cx="600" cy="560" r="26" fill="#c9a227"/>
+  <circle cx="600" cy="560" r="42" fill="none" stroke="#c9a227" stroke-width="1.5" opacity=".6"/>
+  <!-- ambient lines -->
+  <line x1="150" y1="180" x2="1050" y2="180" stroke="#c9a227" stroke-width="1" opacity=".5"/>
+  <text x="150" y="160" font-family="Georgia, serif" font-size="20" letter-spacing="6" fill="#c9a227">LOTUS — DISPLAY MODEL · 1:1 SCALE STUDY</text>
+  <text x="600" y="830" text-anchor="middle" font-family="Georgia, serif" font-size="18" letter-spacing="5" fill="#8a8577">FORM · SYMBOLISM · SILENCE</text>
+  <!-- dimension marks -->
+  <g stroke="#8a8577" stroke-width="1" opacity=".7">
+    <line x1="420" y1="790" x2="780" y2="790"/>
+    <line x1="420" y1="784" x2="420" y2="796"/>
+    <line x1="780" y1="784" x2="780" y2="796"/>
+  </g>
+  <text x="600" y="812" text-anchor="middle" font-family="Georgia, serif" font-size="14" fill="#8a8577">420 mm</text>
+</svg>

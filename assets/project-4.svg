@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Experimental visual identity composition">
+  <rect width="1200" height="900" fill="#f7f4ec"/>
+  <!-- grid lines -->
+  <g stroke="#1a1a1a" stroke-width="1" opacity=".25">
+    <line x1="200" y1="0" x2="200" y2="900"/>
+    <line x1="600" y1="0" x2="600" y2="900"/>
+    <line x1="1000" y1="0" x2="1000" y2="900"/>
+    <line x1="0" y1="300" x2="1200" y2="300"/>
+    <line x1="0" y1="600" x2="1200" y2="600"/>
+  </g>
+  <!-- giant glyph -->
+  <text x="150" y="560" font-family="Georgia, serif" font-size="560" fill="#1a1a1a">A</text>
+  <!-- gold slash -->
+  <rect x="640" y="120" width="14" height="660" fill="#c9a227" transform="rotate(18 647 450)"/>
+  <!-- overlapping circle -->
+  <circle cx="850" cy="330" r="150" fill="none" stroke="#c9a227" stroke-width="3"/>
+  <circle cx="850" cy="330" r="8" fill="#1a1a1a"/>
+  <!-- type specimen lines -->
+  <g fill="#1a1a1a" font-family="Georgia, serif">
+    <text x="740" y="620" font-size="34" letter-spacing="4">IDENTITY / Nº04</text>
+    <text x="740" y="665" font-size="18" letter-spacing="3" fill="#8a6d1d">TYPOGRAPHY — COMPOSITION — FORM</text>
+  </g>
+  <g stroke="#1a1a1a" stroke-width="2">
+    <line x1="740" y1="710" x2="1050" y2="710"/>
+    <line x1="740" y1="740" x2="980" y2="740"/>
+    <line x1="740" y1="770" x2="1020" y2="770"/>
+  </g>
+  <!-- registration marks -->
+  <g stroke="#8a6d1d" stroke-width="1.5" fill="none">
+    <circle cx="110" cy="110" r="14"/>
+    <line x1="90" y1="110" x2="130" y2="110"/>
+    <line x1="110" y1="90" x2="110" y2="130"/>
+  </g>
+  <text x="1100" y="850" text-anchor="end" font-family="Georgia, serif" font-size="16" letter-spacing="4" fill="#8a6d1d">SPECIMEN SHEET — 2024</text>
+</svg>
