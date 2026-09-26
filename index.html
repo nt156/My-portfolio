@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>[TÊN CỦA BẠN] — Industrial &amp; Graphic Design Portfolio</title>
+  <meta name="description" content="Portfolio of an industrial &amp; graphic design student — editorial design, product design, 3D character design and visual identity." />
+  <meta name="author" content="[TÊN CỦA BẠN]" />
+  <meta property="og:title" content="[TÊN CỦA BẠN] — Industrial &amp; Graphic Design Portfolio" />
+  <meta property="og:description" content="I create visual experiences through design, form and ideas." />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="assets/project-1.svg" />
+
+  <!-- Apply saved theme before first paint to avoid flash -->
+  <script>
+    (function () {
+      var t = localStorage.getItem("theme");
+      if (!t) t = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+      document.documentElement.setAttribute("data-theme", t);
+    })();
+  </script>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400;1,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#home" class="nav-logo" aria-label="Home">
+        <span class="logo-mark">◆</span> <span id="navLogoText">[TÊN]</span><span class="logo-dot">.</span>
+      </a>
+
+      <nav class="nav-menu" id="navMenu" aria-label="Main navigation">
+        <a href="#home" class="nav-link" data-i18n="nav.home">Home</a>
+        <a href="#about" class="nav-link" data-i18n="nav.about">About</a>
+        <a href="#projects" class="nav-link" data-i18n="nav.projects">Projects</a>
+        <a href="#contact" class="nav-link" data-i18n="nav.contact">Contact</a>
+      </nav>
+
+      <div class="nav-controls">
+        <!-- Language switcher -->
+        <div class="lang-toggle" id="langToggle" role="group" aria-label="Language">
+          <button class="lang-opt" data-lang="en" aria-label="English">EN</button>
+          <span class="lang-sep" aria-hidden="true">/</span>
+          <button class="lang-opt" data-lang="vi" aria-label="Tiếng Việt">VI</button>
+        </div>
+
+        <!-- Dark mode toggle -->
+        <button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode">
+          <svg class="icon-moon" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <path d="M20 13.5A8 8 0 0 1 10.5 4 8 8 0 1 0 20 13.5Z"/>
+          </svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" width="17" height="17" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true">
+            <circle cx="12" cy="12" r="4.5"/>
+            <path d="M12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M4.6 4.6l1.8 1.8M17.6 17.6l1.8 1.8M4.6 19.4l1.8-1.8M17.6 6.4l1.8-1.8"/>
+          </svg>
+        </button>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="home">
+      <div class="hero-inner">
+        <div class="hero-text">
+          <p class="hero-eyebrow reveal"><span class="gold-line"></span><span data-i18n="hero.eyebrow">Portfolio — 2026</span></p>
+          <h1 class="hero-name reveal">[TÊN CỦA BẠN]</h1>
+          <p class="hero-role reveal" data-i18n="hero.role">Industrial &amp; Graphic Design Student</p>
+          <p class="hero-tagline reveal" data-i18n="hero.tagline">“I create visual experiences through design, form and ideas.”</p>
+          <div class="hero-cta reveal">
+            <a href="#projects" class="btn btn-gold" data-i18n="hero.cta1">View My Work</a>
+            <a href="#about" class="btn btn-ghost" data-i18n="hero.cta2">About Me</a>
+          </div>
+        </div>
+
+        <div class="hero-visual reveal">
+          <figure class="hero-frame">
+            <img src="assets/portrait.svg" alt="Abstract portrait artwork of the designer" width="900" height="1100" />
+          </figure>
+          <span class="hero-frame-deco" aria-hidden="true"></span>
+        </div>
+      </div>
+
+      <a class="hero-scroll" href="#about" aria-label="Scroll to About section">
+        <span data-i18n="hero.scroll">Scroll</span>
+        <span class="scroll-line"></span>
+      </a>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">01</span>
+          <h2 class="section-title" data-i18n-html="about.title">About <em>Me</em></h2>
+        </div>
+
+        <div class="about-grid">
+          <div class="about-intro reveal">
+            <p class="about-lead" data-i18n-html="about.lead">
+              I am a design student working across <strong>industrial design, graphic design, 3D and visual communication</strong> — driven by the meeting point of aesthetics, function and design thinking.
+            </p>
+            <p data-i18n="about.p2">
+              My practice focuses on turning ideas into meaningful products and visual experiences: objects with purpose, images with intent, and systems that communicate clearly. I believe good design is quiet, honest and precise.
+            </p>
+          </div>
+
+          <div class="about-facts reveal">
+            <div class="fact">
+              <h3 data-i18n="about.f1h">Education</h3>
+              <p data-i18n-html="about.f1p">BFA in Industrial Design<br /><span class="fact-sub">University of Architecture — 2023 → Present</span></p>
+            </div>
+            <div class="fact">
+              <h3 data-i18n="about.f2h">Focus</h3>
+              <p data-i18n-html="about.f2p">Product &amp; Form<br /><span class="fact-sub">Editorial · Branding · 3D</span></p>
+            </div>
+            <div class="fact">
+              <h3 data-i18n="about.f3h">Interests</h3>
+              <p data-i18n-html="about.f3p">Typography, material culture,<br /><span class="fact-sub">photography &amp; craft</span></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section projects" id="projects">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">02</span>
+          <h2 class="section-title" data-i18n-html="projects.title">Selected <em>Projects</em></h2>
+          <p class="section-desc" data-i18n="projects.desc">A curated selection of work across editorial, product, 3D and identity design.</p>
+        </div>
+
+        <div class="project-grid">
+
+          <!-- Project 01 — large -->
+          <article class="project-card project-large reveal" id="project-1">
+            <a href="#project-1" class="project-link" aria-label="View Robusta Coffee Magazine project">
+              <div class="project-media">
+                <img src="assets/project-1.svg" alt="Robusta Coffee Magazine — editorial cover artwork" loading="lazy" />
+                <div class="project-overlay"><span class="overlay-btn" data-i18n="project.view">View Project</span></div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">01</span>
+                  <span class="project-year">2025</span>
+                </div>
+                <h3 class="project-title">Robusta Coffee Magazine</h3>
+                <p class="project-cat" data-i18n="p1.cat">Graphic Design / Editorial Design</p>
+                <p class="project-desc" data-i18n="p1.desc">Editorial magazine exploring the identity, culture and visual language of Vietnamese Robusta coffee.</p>
+                <span class="project-more"><span data-i18n="project.view">View Project</span> <span class="arrow">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 02 — large, offset -->
+          <article class="project-card project-large project-offset reveal" id="project-2">
+            <a href="#project-2" class="project-link" aria-label="View Lotus Display Model project">
+              <div class="project-media">
+                <img src="assets/project-2.svg" alt="Lotus Display Model — product design render" loading="lazy" />
+                <div class="project-overlay"><span class="overlay-btn" data-i18n="project.view">View Project</span></div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">02</span>
+                  <span class="project-year">2025</span>
+                </div>
+                <h3 class="project-title">Lotus Display Model</h3>
+                <p class="project-cat" data-i18n="p2.cat">Industrial Design / Product Design</p>
+                <p class="project-desc" data-i18n="p2.desc">A minimalist display model inspired by the form and symbolism of the lotus.</p>
+                <span class="project-more"><span data-i18n="project.view">View Project</span> <span class="arrow">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 03 — small -->
+          <article class="project-card project-small reveal" id="project-3">
+            <a href="#project-3" class="project-link" aria-label="View Character Design project">
+              <div class="project-media">
+                <img src="assets/project-3.svg" alt="Stylized 3D character artwork" loading="lazy" />
+                <div class="project-overlay"><span class="overlay-btn" data-i18n="project.view">View Project</span></div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">03</span>
+                  <span class="project-year">2024</span>
+                </div>
+                <h3 class="project-title">Character Design</h3>
+                <p class="project-cat" data-i18n="p3.cat">3D / Character Design</p>
+                <p class="project-desc" data-i18n="p3.desc">A stylized 3D character exploration focusing on form, personality and visual storytelling.</p>
+                <span class="project-more"><span data-i18n="project.view">View Project</span> <span class="arrow">→</span></span>
+              </div>
+            </a>
+          </article>
+
+          <!-- Project 04 — small -->
+          <article class="project-card project-small reveal" id="project-4">
+            <a href="#project-4" class="project-link" aria-label="View Experimental Visual Identity project">
+              <div class="project-media">
+                <img src="assets/project-4.svg" alt="Experimental visual identity — typography composition" loading="lazy" />
+                <div class="project-overlay"><span class="overlay-btn" data-i18n="project.view">View Project</span></div>
+              </div>
+              <div class="project-info">
+                <div class="project-meta">
+                  <span class="project-num">04</span>
+                  <span class="project-year">2024</span>
+                </div>
+                <h3 class="project-title">Experimental Visual Identity</h3>
+                <p class="project-cat" data-i18n="p4.cat">Graphic Design / Branding</p>
+                <p class="project-desc" data-i18n="p4.desc">An experimental visual identity project exploring typography, composition and contemporary aesthetics.</p>
+                <span class="project-more"><span data-i18n="project.view">View Project</span> <span class="arrow">→</span></span>
+              </div>
+            </a>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section skills" id="skills">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-index">03</span>
+          <h2 class="section-title" data-i18n-html="skills.title">Skills &amp; <em>Tools</em></h2>
+        </div>
+        <ul class="skill-tags reveal" role="list">
+          <li>Adobe Photoshop</li>
+          <li>Adobe Illustrator</li>
+          <li>Adobe InDesign</li>
+          <li>Blender</li>
+          <li>3D Modeling</li>
+          <li data-i18n="skill.6">Graphic Design</li>
+          <li data-i18n="skill.7">Industrial Design</li>
+          <li data-i18n="skill.8">Visual Communication</li>
+          <li data-i18n="skill.9">Design Thinking</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container contact-inner reveal">
+        <span class="contact-mark" aria-hidden="true">◆</span>
+        <h2 class="contact-headline" data-i18n-html="contact.headline">Let's create something <em>meaningful</em>.</h2>
+        <p class="contact-text" data-i18n="contact.text">
+          I'm open to internships, freelance projects and creative collaborations.
+          If you have an idea, a brief, or simply want to talk about design — I'd love to hear from you.
+        </p>
+        <a href="mailto:hello@yourname.design" class="btn btn-gold btn-large" data-i18n="contact.cta">Get in Touch</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">◆</span> [TÊN CỦA BẠN]
+      </div>
+
+      <ul class="footer-links" role="list">
+        <li>
+          <a href="mailto:hello@yourname.design" aria-label="Email">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+            Email
+          </a>
+        </li>
+        <li>
+          <a href="https://facebook.com/yourname" target="_blank" rel="noopener" aria-label="Facebook">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M14 8h3V5h-3a4 4 0 0 0-4 4v2H7v3h3v7h3v-7h3l1-3h-4V9a1 1 0 0 1 1-1Z"/></svg>
+            Facebook
+          </a>
+        </li>
+        <li>
+          <a href="https://x.com/yourname" target="_blank" rel="noopener" aria-label="X">
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="currentColor" aria-hidden="true"><path d="M17.7 4H20l-5.1 5.9L21 20h-4.7l-3.7-4.8L8.4 20H6l5.5-6.3L6 4h4.8l3.3 4.4L17.7 4Zm-.8 14.4h1.3L9.1 5.5H7.7l9.2 12.9Z"/></svg>
+            X
+          </a>
+        </li>
+      </ul>
+
+      <p class="footer-copy" data-i18n="footer.copy">© 2026 [TÊN CỦA BẠN]. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>

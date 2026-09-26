@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Stylized 3D character artwork">
+  <rect width="1200" height="900" fill="#efe9dd"/>
+  <!-- backdrop arch -->
+  <path d="M380 820 L380 420 A220 220 0 0 1 820 420 L820 820 Z" fill="#1a1a1a"/>
+  <!-- character: head -->
+  <circle cx="600" cy="360" r="120" fill="#c9a227"/>
+  <!-- eyes -->
+  <circle cx="560" cy="350" r="14" fill="#1a1a1a"/>
+  <circle cx="645" cy="350" r="14" fill="#1a1a1a"/>
+  <circle cx="565" cy="345" r="4" fill="#efe9dd"/>
+  <circle cx="650" cy="345" r="4" fill="#efe9dd"/>
+  <!-- smile -->
+  <path d="M565 405 Q600 435 638 402" stroke="#1a1a1a" stroke-width="8" fill="none" stroke-linecap="round"/>
+  <!-- hair swoop -->
+  <path d="M490 330 Q520 220 640 240 Q700 250 712 300 Q640 265 560 285 Q510 300 490 330 Z" fill="#1a1a1a"/>
+  <!-- body -->
+  <path d="M600 470 C 500 470 460 560 460 680 L460 820 L740 820 L740 680 C740 560 700 470 600 470 Z" fill="#c9a227"/>
+  <path d="M600 470 C 560 470 530 500 515 540 L685 540 C670 500 640 470 600 470 Z" fill="#1a1a1a"/>
+  <!-- arms -->
+  <path d="M462 600 Q410 660 430 730" stroke="#c9a227" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <path d="M738 600 Q790 660 770 730" stroke="#c9a227" stroke-width="34" fill="none" stroke-linecap="round"/>
+  <!-- label -->
+  <text x="600" y="120" text-anchor="middle" font-family="Georgia, serif" font-size="26" letter-spacing="10" fill="#1a1a1a">CHARACTER STUDY 03</text>
+  <line x1="480" y1="145" x2="720" y2="145" stroke="#c9a227" stroke-width="2"/>
+  <text x="600" y="868" text-anchor="middle" font-family="Georgia, serif" font-size="16" letter-spacing="5" fill="#8a8577">BLENDER · STYLIZED SCULPT · 2025</text>
+</svg>

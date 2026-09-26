@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" role="img" aria-label="Robusta Coffee Magazine cover artwork">
+  <rect width="1200" height="900" fill="#f4efe6"/>
+  <!-- editorial frame -->
+  <rect x="90" y="80" width="1020" height="740" fill="none" stroke="#1a1a1a" stroke-width="2"/>
+  <!-- coffee circle motif -->
+  <circle cx="600" cy="420" r="210" fill="#2b2018"/>
+  <circle cx="600" cy="420" r="210" fill="none" stroke="#c9a227" stroke-width="2" transform="rotate(15 600 420)"/>
+  <circle cx="600" cy="420" r="150" fill="none" stroke="#c9a227" stroke-width="1.5" opacity=".7"/>
+  <!-- coffee bean -->
+  <ellipse cx="600" cy="420" rx="52" ry="78" fill="#c9a227"/>
+  <path d="M600 342 C 560 400, 640 440, 600 498" stroke="#2b2018" stroke-width="10" fill="none"/>
+  <!-- masthead -->
+  <text x="600" y="180" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="92" letter-spacing="14" fill="#1a1a1a">ROBUSTA</text>
+  <text x="600" y="225" text-anchor="middle" font-family="Georgia, serif" font-size="22" letter-spacing="8" fill="#8a6d1d">A VIETNAMESE COFFEE JOURNAL</text>
+  <line x1="450" y1="255" x2="750" y2="255" stroke="#c9a227" stroke-width="2"/>
+  <!-- footer text -->
+  <text x="600" y="740" text-anchor="middle" font-family="Georgia, serif" font-size="20" letter-spacing="6" fill="#1a1a1a">ISSUE Nº 01 — HARVEST &amp; HERITAGE</text>
+  <line x1="200" y1="770" x2="1000" y2="770" stroke="#1a1a1a" stroke-width="1"/>
+  <!-- corner marks -->
+  <text x="120" y="120" font-family="Georgia, serif" font-size="18" fill="#8a6d1d">EST. 2025</text>
+  <text x="1080" y="120" text-anchor="end" font-family="Georgia, serif" font-size="18" fill="#8a6d1d">ĐÀ LẠT</text>
+</svg>
